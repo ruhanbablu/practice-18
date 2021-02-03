@@ -788,6 +788,9 @@ header{
         margin-left: auto;
         margin-right: auto;
     }
+    .hero-header h1{
+        font-size: 45px;
+    }
     .introduction-content{
         display: flex;
         flex-direction: column;
@@ -799,9 +802,39 @@ header{
         width: 100%;
         padding-left: 45px;
     }
+    .intro-header{
+        text-align: center;
+
+    }
+    .feature-header{
+        font-size: 40px;
+    }
     .feature-content{
         display: flex;
         flex-direction: column;
+    }
+    .teacher-container{
+       
+
+    }
+    .feature-card{
+        margin-bottom: 30px;
+       
+
+    }
+    .teacher-card{
+        display: block;
+        text-align: center;
+    }
+    .teacher-img{
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .teacher-dada{
+        text-align: center;
+        display: block;
     }
     .card-container{
         display: flex;
@@ -809,6 +842,13 @@ header{
 
 
     }
+    .course-card{
+        margin-bottom: 50px;
+    }
+    .card-heading{
+        text-align: center;
+    }
+
     .teacher-container{
         display: flex;
         flex-direction: column;
@@ -844,22 +884,101 @@ header{
         flex-direction: column;
 
     }
+    .card{
+        text-align: center;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .blog-content{
+        text-align: center;
+    }
+    .blog-content{
+        padding: 0 20px;
+    }
+    .blog-button{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .news-section{
+        display: flex;
         flex-direction: column;
+        padding-bottom: 50px;
 
+    }
+    .news-part{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .news-email{
+        width: 100%;
+
+    }
+    .email{
+        width: 100%;
+    }
+    .submit{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
     }
     .contact-container{
+        display: flex;
         flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+
 
     }
-    .icon-blog{
+    .form{
+        width: 100%;
+        display: flex;
         flex-direction: column;
+        padding-bottom: 50px;
 
+    }
+    .input-form{
+        width: 100%;
+    }
+    input{
+        padding-left: 30px;
+    }
+    .contact-btn{
+        text-align: center;
+
+    }
+    .map-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .icon-blog{
+        display: flex;
+
+    }
+    .icon{
+        text-align: center;
+    }
+    .icon-img{
+        margin-left: auto;
+        margin-right: auto;
     }
     .card{
         width: 100%;
     }
+    .news-section{
+        display: flex;
+        padding: 0 20px;
+        flex-direction: column;
+    }
     .news-pard{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+    .map-img map{
         width: 100%;
     }
     .feature-header h2{
@@ -886,8 +1005,23 @@ header{
     .teacher-name{
         font-size: 20px;
     }
+    .footer-nav{
+        display: block;
+        text-align: center;
+    }
+    .footer-logo{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .footer-menu{
+        visibility: visible;
+        display: block;
+    }
     .footer i{
         font-size: 10px;
+    }
+    .footer-menu li{
+        padding: 10px;
     }
 
 
